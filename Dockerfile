@@ -1,11 +1,7 @@
 # This file creates a container that runs MySQL Server
-#
-# Author: Paul Czarkowski
-# Date: 08/04/2013
 
-
-FROM ubuntu:12.04
-MAINTAINER Paul Czarkowski "paul@paulcz.net"
+FROM base
+MAINTAINER nXqd "nxqd.inbox@gmail.com"
 
 RUN apt-get update
 RUN apt-get -y install mysql-server
